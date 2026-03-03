@@ -1,0 +1,114 @@
+backend:
+  name: github
+  repo: marcangeloh/resh-community
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+      - label: "Modified Date"
+        name: "modified"
+        widget: "datetime"
+        required: false
+      - label: "Excerpt"
+        name: "excerpt"
+        widget: "text"
+        required: false
+      - label: "Author"
+        name: "author"
+        widget: "string"
+        default: "Resh Community"
+      - label: "Category"
+        name: "category"
+        widget: "string"
+        default: "News"
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        field:
+          name: "category"
+          widget: "string"
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        field:
+          name: "tag"
+          widget: "string"
+        required: false
+      - label: "Featured Image"
+        name: "featured_image"
+        widget: "image"
+        required: false
+      - label: "Reading Time (minutes)"
+        name: "reading_time"
+        widget: "number"
+        default: 5
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        required: false
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+            required: false
+          - label: "Description"
+            name: "description"
+            widget: "text"
+            required: false
+          - label: "Canonical URL"
+            name: "canonical"
+            widget: "string"
+            required: false
+          - label: "Focus Keyword"
+            name: "focus_keyword"
+            widget: "string"
+            required: false
+      - label: "Review Box"
+        name: "review"
+        widget: "object"
+        required: false
+        fields:
+          - label: "Enabled"
+            name: "enabled"
+            widget: "boolean"
+            default: false
+          - label: "Score"
+            name: "score"
+            widget: "number"
+            required: false
+          - label: "Name"
+            name: "name"
+            widget: "string"
+            required: false
+          - label: "Pros"
+            name: "pros"
+            widget: "list"
+            field:
+              name: "pro"
+              widget: "string"
+            required: false
+          - label: "Cons"
+            name: "cons"
+            widget: "list"
+            field:
+              name: "con"
+              widget: "string"
+            required: false
