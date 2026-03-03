@@ -1,0 +1,119 @@
+# Resh Community Blog Images - Batch Generation for Pollinations.ai
+# Format: subject | slug | category
+# Usage: python scripts/generate-images-pollinations.py --batch scripts/batch-images-pollinations.txt
+
+# BATCH 1: Crypto Basics (4-12)
+Cryptocurrency beginner guide with friendly welcome icons and simple learning journey symbols | cryptocurrency-for-beginners | crypto-basics
+Crypto glossary dictionary with word bubbles and terminology icons | crypto-terminology-glossary | crypto-basics
+Network nodes distributed showing central vs decentralized comparison | decentralization-explained | crypto-basics
+Blocks linked together in chain visualization with technical diagram | how-blockchain-works-technically | crypto-basics
+Growing blockchain network with scaling arrows and layer concepts | blockchain-scaling-solutions | crypto-basics
+Blockchain technology icons for various industries like finance healthcare and supply chain | the-blockchain-and-its-impressive-use-cases | crypto-basics
+Metaverse VR concept with blockchain foundation elements | why-blockchain-is-the-core-of-the-metaverse | crypto-basics
+Comparison of mining equipment versus staking validator concept | proof-of-work-vs-proof-of-stake | crypto-basics
+Web evolution from 1.0 to 2.0 to 3.0 showing decentralized internet future | web3-explained | crypto-basics
+
+# BATCH 2: DeFi (13-35)
+DeFi central hub concept with spokes for lending borrowing and trading | defi-hub | defi
+DeFi ecosystem with various protocols connected in network | defi-protocols-explained | defi
+Trophy ranking concept with DeFi protocol logos and top projects | best-defi-projects | defi
+Split comparison showing traditional bank versus DeFi new finance | defi-vs-traditional-finance | defi
+Shield lock concept with warning elements for DeFi safety analysis | is-defi-safe | security
+Step by step flow showing user journey and tutorial concept | how-to-use-defi | defi
+Compound protocol logo with lending borrowing arrows and interest rates | compound-protocol-explained | defi
+Aave ghost logo with pools and liquidity visualization | aave-protocol-explained | defi
+PancakeSwap bunny theme with trading interface and DEX concept | pancakeswap-explained | defi
+Magnifying glass investigation concept for PancakeSwap safety analysis | is-pancakeswap-a-scam | security
+Uniswap unicorn theme with swap interface and DEX tutorial | uniswap-tutorial | defi
+Decentralized exchange concept with P2P trading elements | what-is-dex | defi
+Pool with crypto coins and liquidity waves visualization | liquidity-pools | defi
+Detailed liquidity pool diagram with tokens and LP mechanics | liquidity-pools-explained | defi
+Farm growth concept with crypto plants and passive income harvest | yield-farming-explained | defi
+Comparison split showing staking as holding versus farming as active earning | staking-vs-yield-farming | defi
+Loss concept with downward arrow and recovery curve for liquidity pools | impermanent-loss-explained | defi
+Locked vault with value counter and TVL chart metric visualization | total-value-locked-tvl-explained | defi
+Mining concept with crypto pickaxe and rewards for liquidity providers | liquidity-mining-explained | defi
+Venus planet theme with lending borrowing on BNB Chain | defi-lending-and-venus-protocol-on-bnb-chain | defi
+Analytics dashboard with charts and data visualization for DeFi yield farming | best-free-defi-yield-farming-analytics-tool-vfat-tools | defi
+Market chart with 2025 theme and growth arrows for DeFi analysis | defi-state-of-market-2025 | news
+Decision tree flowchart with branching paths for yield farming strategies | defi-yield-farming-decision-tree-2025 | defi
+
+# BATCH 3: Trading (36-57)
+Trading central hub with spokes for analysis strategies and charts | trading-hub | trading
+Trading interface with buy sell arrows for beginner guide | how-to-trade-cryptocurrency | trading
+Day night cycle with trading chart and fast-paced day trading concept | day-trading-crypto | trading
+Strategy board chess-like thinking for trading tactics and planning | crypto-trading-strategies | trading
+Candlestick chart with technical indicators for market analysis | crypto-technical-analysis | trading
+Chart with annotations and magnified sections for reading guide | how-to-read-crypto-charts | trading
+Market cap comparison showing large versus small crypto coins | market-capitalization-explained | trading
+Bull versus bear comparison with up and down market arrows | what-really-goes-in-bull-market-and-bear-market | trading
+Regular purchases over time showing staircase up investment pattern | dollar-cost-averaging-crypto | trading
+Robot bot trading automation concept for cryptocurrency | free-crypto-trading-bots | trading
+Investment growth trophy ranking for best cryptocurrency to invest | best-cryptocurrency-to-invest | trading
+Portfolio diversification pie chart with multiple crypto assets | diversifying-crypto-portfolio | trading
+Split comparison BTC orange versus ETH blue cryptocurrencies | bitcoin-vs-ethereum | crypto-basics
+Bitcoin being split in half showing halving supply reduction concept | bitcoin-halving-explained | crypto-basics
+Gas pump with fee counter and ETH network transaction costs | ethereum-gas-fees-explained | crypto-basics
+Layer cake concept showing L1 base versus L2 scaling solutions | layer-1-vs-layer-2-blockchains | crypto-basics
+Polygon multi-shape logo with scaling arrows for Ethereum solution | polygon-explained | crypto-basics
+Arbitrum branding with bridge concept for Ethereum layer 2 rollup | arbitrum-explained | crypto-basics
+Roadmap path with milestones for 12-week trading learning journey | crypto-trading-beginner-roadmap-2025 | trading
+Glossary dictionary concept with trading terms and vocabulary | crypto-trading-glossary-2025 | trading
+Quiz concept with multiple trader types and personality personas | what-type-of-crypto-trader-are-you-quiz | trading
+Crystal ball or telescope looking at charts for market predictions | q2-2025-crypto-market-outlook | news
+
+# BATCH 4: Security and Wallets (58-73)
+Security shield lock hub with protection spokes and safety features | security-hub | security
+Wallet hub with different wallet types and storage options | wallets-hub | wallets
+Digital wallet icon with keys and lock for cryptocurrency storage | what-is-a-crypto-wallet | wallets
+Step by step wallet creation and setup process illustration | how-to-create-a-crypto-wallet | wallets
+Storage vault safe protection for holding cryptocurrency securely | how-to-store-cryptocurrency | security
+Split comparison hot online fire versus cold offline ice wallet storage | hot-wallet-vs-cold-wallet | wallets
+Beginner friendly wallet with simple design for new crypto users | best-crypto-wallet-for-beginners | wallets
+Comparison split Ledger red versus Trezor black hardware wallet | ledger-vs-trezor | wallets
+Word list recovery phrase key concept for wallet backup | what-is-seed-phrase | security
+Shield protection layers and security for keeping crypto safe | how-to-keep-crypto-safe | security
+Two factor lock with phone plus password authentication concept | 2fa-for-crypto-security | security
+Question mark with shield for safety analysis of cryptocurrency | is-cryptocurrency-safe | security
+Scam warning red flags and protection for avoiding crypto fraud | how-to-avoid-crypto-scams | security
+Hardware device versus exchange building for crypto storage comparison | hardware-wallet-vs-exchange-storage-2025 | wallets
+Myth busting concept with crossed out wallet security myths | 10-wallet-security-myths-debunked-2025 | security
+Survey chart concept with data visualization for security results | crypto-security-survey-results-2025 | news
+
+# BATCH 5: Buying and Exchanges (74-82)
+Bitcoin plus payment method with buying process for beginners | how-to-buy-bitcoin | crypto-basics
+Ethereum plus payment method for buying ETH cryptocurrency | how-to-buy-ethereum | crypto-basics
+Globe with cryptocurrency world map for global buying guide | how-to-buy-crypto-in-any-country | crypto-basics
+Binance branding plus buying process for cryptocurrency exchange | how-to-buy-crypto-with-binance | crypto-basics
+Updated Binance exchange interface for buying cryptocurrency | how-to-buy-crypto-with-binance-2022 | crypto-basics
+KuCoin branding exchange interface for cryptocurrency trading | how-to-buy-crypto-with-kucoin-2022 | crypto-basics
+Comparison of exchanges with checklist for choosing crypto platform | how-to-choose-a-crypto-exchange | crypto-basics
+CEX centralized exchange building with cryptocurrency trading | all-you-need-to-know-about-centralized-exchanges | crypto-basics
+Exchange logos compared and ranked for cryptocurrency trading | best-big-crypto-exchanges-compared | crypto-basics
+
+# BATCH 6: NFTs and Web3 (83-86)
+NFT artwork digital collectibles with blockchain authenticity | what-is-a-non-fungible-token-how-to-get-nfts | nft
+Soulbound token concept bound to soul character for Web3 identity | sbt-lets-break-it-down-to-you | nft
+Stablecoin with stability versus volatility comparison concept | stablecoin-the-terrifying-technology | crypto-basics
+Various token types with crypto coin collection visualization | tokens | crypto-basics
+
+# BATCH 7: Social and Community (87-93)
+Community icons with connected people for crypto social networks | best-crypto-communities-to-follow-in-2025 | general
+Crypto community icons for 2022 with social networking concept | best-crypto-communities-to-follow-in-2022 | general
+Instagram branding with crypto accounts and social media icons | best-crypto-instagram-accounts-to-follow-in-2022 | general
+Facebook branding pages for cryptocurrency social media accounts | best-crypto-social-media-accounts-to-follow-facebook-edition | general
+Reddit branding subreddit icons for crypto communities | best-crypto-social-media-accounts-to-follow-in-2022-reddit | general
+YouTube branding with play button for crypto video channels | best-crypto-youtube-accounts-to-follow | general
+Twitter X branding with tweet icons for crypto accounts | best-proven-crypto-social-media-accounts-to-follow-in-2022-twitter-edition | general
+
+# BATCH 8: News and Case Studies (94-103)
+FTX logo falling crashing with dramatic downfall concept | ftx-saga-the-downfall-of-the-crypto-empire-of-sbf | news
+Terra Luna logo falling with crash concept for cryptocurrency | terra-luna-the-crash | news
+Elon Musk Trump Twitter X logos with social media news concept | elon-musk-reinstates-twitter-account-of-donald-trump | news
+DAO governance voting democracy with decentralized leadership | dao-democracy-the-only-leader | defi
+Pyramid scheme visualization with warning for crypto scams | ponzi-schemes | security
+Trash coins with avoid concept for identifying bad cryptocurrencies | shitcoins-how-to-successfully-identify-them | security
+Quantum computer with Bitcoin at risk showing security threat | quantum-computers-a-looming-threat-for-bitcoin | security
+Globe with regulation documents and government for crypto laws | world-superpowers-and-the-scary-crypto-regulation-quest | news
+Question marks with risk scenarios for Bitcoin cryptocurrency | hypothetical-risks-of-bitcoin | security
+Privacy mask anonymity shadow for Bitcoin transactions | how-to-stay-private-with-bitcoin-2022 | security
