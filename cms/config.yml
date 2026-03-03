@@ -1,0 +1,129 @@
+backend:
+  name: github
+  repo: marcangeloh/resh-community
+  branch: main
+  api_root: https://api.github.com
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: posts
+    label: Posts
+    label_singular: Post
+    folder: content/posts
+    create: true
+    slug: '{{slug}}'
+    path: '{{title}}/{{slug}}'
+    fields:
+      - { name: title, label: Title, widget: string }
+      - {
+          name: date,
+          label: Date,
+          widget: datetime,
+          default: '',
+          date_format: YYYY-MM-DD,
+          time_format: HH:mm:ss,
+        }
+      - { name: excerpt, label: Excerpt, widget: text, required: false }
+      - {
+          name: categories,
+          label: Categories,
+          widget: list,
+          required: false,
+          field: { widget: string },
+        }
+      - {
+          name: tags,
+          label: Tags,
+          widget: list,
+          required: false,
+          field: { widget: string },
+        }
+      - {
+          name: featuredImage,
+          label: Featured Image,
+          widget: image,
+          required: false,
+        }
+      - { name: author, label: Author, widget: string, default: 'Resh Community', required: false }
+      - {
+          name: reading_time,
+          label: Reading Time (minutes),
+          widget: number,
+          required: false,
+          valueType: int,
+          min: 1,
+        }
+      - { name: status, label: Status, widget: select, options: ['publish', 'draft'], default: 'publish' }
+      - { name: format, label: Format, widget: select, options: ['standard', 'gallery', 'video', 'audio', 'quote', 'link'], default: 'standard', required: false }
+      - name: seo
+        label: SEO
+        widget: object
+        fields:
+          - { name: title, label: SEO Title, widget: string, required: false }
+          - { name: description, label: Meta Description, widget: text, required: false }
+          - { name: canonical, label: Canonical URL, widget: string, required: false }
+          - name: opengraph
+            label: Open Graph
+            widget: object
+            fields:
+              - { name: title, label: OG Title, widget: string, required: false }
+              - { name: description, label: OG Description, widget: text, required: false }
+              - { name: image, label: OG Image, widget: image, required: false }
+      - { name: body, label: Content, widget: markdown }
+
+  - name: pages
+    label: Pages
+    label_singular: Page
+    folder: content/pages
+    create: true
+    slug: '{{slug}}'
+    path: '{{title}}/{{slug}}'
+    fields:
+      - { name: title, label: Title, widget: string }
+      - {
+          name: date,
+          label: Date,
+          widget: datetime,
+          default: '',
+          date_format: YYYY-MM-DD,
+          time_format: HH:mm:ss,
+        }
+      - { name: excerpt, label: Excerpt, widget: text, required: false }
+      - { name: featuredImage, label: Featured Image, widget: image, required: false }
+      - { name: author, label: Author, widget: string, default: 'Resh Community', required: false }
+      - {
+          name: reading_time,
+          label: Reading Time (minutes),
+          widget: number,
+          required: false,
+          valueType: int,
+          min: 1,
+        }
+      - { name: status, label: Status, widget: select, options: ['publish', 'draft'], default: 'publish' }
+      - name: seo
+        label: SEO
+        widget: object
+        fields:
+          - { name: title, label: SEO Title, widget: string, required: false }
+          - { name: description, label: Meta Description, widget: text, required: false }
+          - { name: canonical, label: Canonical URL, widget: string, required: false }
+          - name: opengraph
+            label: Open Graph
+            widget: object
+            fields:
+              - { name: title, label: OG Title, widget: string, required: false }
+              - { name: description, label: OG Description, widget: text, required: false }
+              - { name: image, label: OG Image, widget: image, required: false }
+      - { name: body, label: Content, widget: markdown }
+
+# Editor configuration
+editor:
+  preview: false
+
+# Styling
+slug:
+  encoding: unicode
+  clean_accents: true
+  sanitize_replacement: '_'
